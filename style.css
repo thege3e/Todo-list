@@ -1,0 +1,58 @@
+html {
+  height: 100%;
+  display: flex;
+}
+body {
+  flex: 1 1 auto;
+  margin: 50px;
+  background: #f5f5f5;
+  display: flex;
+}
+#toggle,
+#calendar,
+#board {
+  flex: 1 1 auto;
+  display: flex;
+}
+
+#toggle {
+  flex-direction: column;
+  background: #1b2180;
+  border-top-left-radius: 40px;
+  border-bottom-left-radius: 40px;
+  flex-basis: 100px;
+}
+
+#calendar {
+  background: #e4e4e4;
+  flex-basis: 200px;
+}
+
+#board {
+  flex-direction: column;
+  flex-basis: 400px;
+}
+
+.today,
+.lists,
+.calendar,
+.graph {
+  flex: 1 1 auto;
+}
+
+#lists,
+#graph {
+  flex: 1 1 auto;
+}
+
+#lists {
+  background: #ffffff;
+  border-top-right-radius: 40px;
+  flex-basis: 300px;
+}
+
+#graph {
+  background: #21308c;
+  flex-basis: 100px;
+  border-bottom-right-radius: 40px;
+}
