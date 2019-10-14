@@ -16,7 +16,20 @@
         <div class="list graph"><h3>Тайлан</h3></div>
       </div>
     </div>
-    <div id="calendar"></div>
+    <div id="calendar">
+      <div class="dateContainer">
+        <div class="date">
+          <div class="yearMonth">{{ year + month }}</div>
+          <div class="previous"></div>
+          <div class="next"></div>
+        </div>
+      </div>
+      <div class="calendarMonth">
+        <div class="week">Sun Mon Tue Wed Thu Fri Sat</div>
+        <hr style="width: 80%" />
+        <div class="days"></div>
+      </div>
+    </div>
     <div id="board">
       <div id="lists"></div>
       <div id="graph"></div>
