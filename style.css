@@ -104,6 +104,10 @@ body {
   justify-content: center;
 }
 
+.week {
+  text-align: center;
+}
+
 .dateContainer {
   display: flex;
   flex-basis: 100px;
