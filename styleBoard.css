@@ -1,0 +1,16 @@
+#board {
+  flex-direction: column;
+  width: 50%;
+}
+
+#lists {
+  background: #ffffff;
+  border-top-right-radius: 40px;
+  flex-basis: 300px;
+}
+
+#graph {
+  background: #21308c;
+  flex-basis: 100px;
+  border-bottom-right-radius: 40px;
+}

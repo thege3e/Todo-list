@@ -1,0 +1,77 @@
+html {
+  height: 100%;
+  display: flex;
+}
+body {
+  flex: 1 1 auto;
+  margin: 50px;
+  background: #f5f5f5;
+  display: flex;
+}
+div {
+  flex: 1 1 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+#toggle {
+  flex-direction: column;
+  background: #1b2180;
+  border-top-left-radius: 40px;
+  border-bottom-left-radius: 40px;
+  width: 10%;
+  justify-content: center;
+  position: relative;
+  align-items: center;
+}
+
+.userInfo {
+  flex: 0;
+  position: absolute;
+  color: white;
+  top: 40px;
+}
+
+.userInfo .img {
+  border: 2px solid white;
+  border-radius: 35px;
+  overflow: hidden;
+}
+
+.userInfo .img img {
+  height: 68px;
+  width: 68px;
+}
+
+.userInfo .name h5 {
+  margin: 0;
+  text-align: center;
+}
+.nav {
+  display: flex;
+  height: 40%;
+  flex-direction: column;
+  position: absolute;
+  width: 80%;
+  right: 0;
+}
+
+.list {
+  border-bottom-left-radius: 30px;
+  border-top-left-radius: 30px;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  align-items: center;
+  color: white;
+}
+
+.list h2 {
+  position: absolute;
+  margin: 0;
+}
+
+.activeList {
+  color: #1b2180;
+  background: #e4e4e4;
+}
