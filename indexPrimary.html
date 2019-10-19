@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Todo list</title>
+    <!-- <link rel="stylesheet" href="styleCalendar.css" />
+    <link rel="stylesheet" href="styleBoard.css" />
+    <link rel="stylesheet" href="styleToggle.css" /> -->
+    <script
+      src="https://kit.fontawesome.com/f675eb60c1.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div id="toggle">
+      <div class="userInfo">
+        <div class="img">
+          <img
+            src="./img/blank-profile-picture-973460_960_720.png"
+            alt="userImg"
+          />
+        </div>
+        <div class="name"><h5>Бат-Өлзий</h5></div>
+      </div>
+      <div class="nav">
+        <div class="list today activeList">
+          <h3><i class="fas fa-star"></i>Өнөөдөр</h3>
+        </div>
+        <div class="list lists"><h3>Самбар</h3></div>
+        <div class="list calendar"><h3>Хуанли</h3></div>
+        <div class="list graph"><h3>Тайлан</h3></div>
+      </div>
+    </div>
+    <div id="calendar">
+      <div class="dateContainer">
+        <div class="date">
+          <div class="yearMonth">
+            <i class="far fa-calendar-alt"></i>2019 оны 10 сар
+          </div>
+          <div class="previous"></div>
+          <div class="next"></div>
+        </div>
+      </div>
+      <div class="calendarMonth">
+        <div class="week">Sun Mon Tue Wed Thu Fri Sat</div>
+        <hr style="width: 80%" />
+        <div class="days"></div>
+      </div>
+    </div>
+    <div id="board">
+      <div id="lists"></div>
+      <div id="graph"></div>
+    </div>
+  </body>
+</html>
