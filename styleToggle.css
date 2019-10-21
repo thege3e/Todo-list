@@ -7,11 +7,16 @@ body {
   margin: 50px;
   background: #f5f5f5;
   display: flex;
+  font-family: "Roboto", sans-serif;
 }
 div {
   flex: 1 1 auto;
   display: flex;
   flex-direction: column;
+}
+
+#container {
+  flex-direction: row;
 }
 
 #toggle {
@@ -22,13 +27,13 @@ div {
   width: 10%;
   justify-content: center;
   position: relative;
+  color: white;
   align-items: center;
 }
 
 .userInfo {
   flex: 0;
   position: absolute;
-  color: white;
   top: 40px;
 }
 
@@ -63,10 +68,9 @@ div {
   justify-content: center;
   position: relative;
   align-items: center;
-  color: white;
 }
 
-.list h2 {
+.list h4 {
   position: absolute;
   margin: 0;
 }
@@ -74,4 +78,17 @@ div {
 .activeList {
   color: #1b2180;
   background: #e4e4e4;
+}
+
+.settings {
+  flex: 0;
+  position: absolute;
+  bottom: 7%;
+  background: white;
+  color: #1b2180;
+  height: 20px;
+  width: 20px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
 }

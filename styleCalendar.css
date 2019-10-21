@@ -5,33 +5,77 @@
   align-items: center;
 }
 
-.date {
+.monthSelector {
   width: 80%;
   display: flex;
+  flex: 0;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-basis: 80px;
+  align-items: center;
+  margin-top: 10%;
+  color: #1b2180;
 }
 
-.date .yearMonth {
+.yearMonth,
+.toggleMonth {
   flex-direction: row;
+  flex-grow: 0;
+  align-items: center;
+}
+
+.selector {
+  margin-left: 20px;
 }
 
 .calendarMonth {
-  width: 80%;
+  padding: 20px;
+  width: 69%;
   height: 47%;
   background: white;
-  border-radius: 30px;
+  border-radius: 20px;
   align-items: center;
+  flex-grow: 0;
   justify-content: center;
 }
 
 .week {
   text-align: center;
+  flex-grow: 0;
+  flex-direction: row;
+  width: 100%;
 }
 
 .dateContainer {
   display: flex;
   flex: 0;
-  width: 80%;
   flex-direction: row;
   justify-content: center;
   align-items: center;
+}
+
+.days {
+  flex-flow: row wrap;
+}
+.day {
+  height: 29px;
+  width: 29px;
+  flex: 0 0 14%;
+  justify-content: center;
+  text-align: center;
+}
+.num {
+  height: 29px;
+  width: 29px;
+  border-radius: 15px;
+  justify-content: center;
+}
+.num:hover {
+  background: #1b2180;
+  transition-duration: 1s;
+}
+
+.activeDay {
+  background: #1b2180;
+  color: white;
 }
